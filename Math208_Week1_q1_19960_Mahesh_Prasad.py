@@ -3,6 +3,12 @@ Stuent Name : Mahesh Prasad (Id : 19960)
 College     : SFBU
 Date        : 01-OCT-2023
 """
+from datetime import datetime
+
+current_dateTime = datetime.now()
+print('\n\nRun Date is ', current_dateTime)
+
+
 import random
 
 def generate_random_numbers(n, min_value, max_value):
