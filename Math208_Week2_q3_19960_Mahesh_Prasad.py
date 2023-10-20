@@ -20,12 +20,9 @@ model = LinearRegression()
 model.fit(x, y)
 
 r_sq = model.score(x, y)
-print("\nCoefficient of linear correlation: ", r_sq)
-print("Intercept: ", model.intercept_)
-print("Slope: ", model.coef_)
-
-y_pred = model.intercept_ + model.coef_ * x
-print("Values of b1, b0 : \n", y_pred)
+print("\nCoefficient of linear correlation r : ", r_sq)
+print("Intercept b0: ", model.intercept_)
+print("Slope b1: ", model.coef_)
 
 x_new = np.linspace(0, 20, 50)
 y_new = model.predict(x_new[:, np.newaxis])
