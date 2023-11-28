@@ -2,7 +2,6 @@
 Stuent Name : Mahesh Prasad (Id : 19960)
 College     : SFBU
 Date        : 27-Nov-2023
-Description : Convert number from any base to any base
 """
 
 from datetime import datetime
